@@ -1,0 +1,36 @@
+body {
+    background-color: #ebf8fa;
+}
+
+h1, h2 {
+    color: #2c9173;
+  }
+  
+  p {
+    color: #3d3c39;
+  }
+  
+  ul {
+    border: 3px dotted orange;
+  }
+  
+  ol {
+    border: 3px dotted purple;
+  }
+  
+  ol, ul {
+    padding: 15px 20px;
+    border-radius: 4px;
+  }
+  
+  h1, strong {
+    color: #268594;
+  }
+  
+  em {
+    color: #557285;
+  }
+  
+  li {
+    font-size: 18px;
+  }
