@@ -145,12 +145,14 @@ footer {
 /* HK additions */
 
 main {
-  flex: 3;
+  /* flex: 3; */
+  display: flex;
 }
 
 .flex-container {
   background-color: rgba(0,255,0,0.5);
   padding: 1%;
-  display: flex;
+  /* display: flex; */
+  flex: 1;
   flex-wrap: wrap;
 }
