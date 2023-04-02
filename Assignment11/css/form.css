@@ -3,6 +3,9 @@
 
 /* form styling */
 
+body {
+	background-color: #f5f4eb;	
+}
 
 #wrapper {
 	width: 60%;
