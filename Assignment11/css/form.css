@@ -1,0 +1,67 @@
+@charset "UTF-8";
+
+
+/* form styling */
+
+
+#wrapper {
+	width: 60%;
+	margin-left:4%;
+}
+
+div#formcol1 {
+	float:left;	
+	width: 100%;
+}
+
+#formcol1 li {
+	list-style: none;
+	margin-bottom: 7px;
+}
+
+#formcol1 input.reqfield {
+	background: #FF9;
+}
+
+
+#multchoice label {
+	text-align: left;
+}
+
+label {
+	margin-right: .3em;
+	width: 6.5em;
+	display: inline-block;
+	text-align: right;
+}
+
+select:focus, select:active, input:focus, input:active, input:focus + label,
+input:active + label, label[for]:focus, label[for]:active {
+	color: #FFF !important;
+	background-color: #29633f !important;
+}
+
+svg#definition {
+	display: none;
+  }
+
+  .visually-hidden {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	left: -10000px;
+	overflow: hidden;
+  }
+
+.icon {
+	width: 0.5em;
+	height: 0.5em;
+	fill: red;
+	vertical-align: top;
+  }
+
+
+
+
+/* end of form css */
+	
