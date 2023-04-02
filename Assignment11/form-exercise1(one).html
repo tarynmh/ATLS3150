@@ -25,7 +25,7 @@
 
 
  <h1>2020 Proposal Form</h1>
- <p>You are required to input your first and last name, but everything thereafter is optional.</p>
+ <p>You are required to input your first name, last name, and address, but everything else is optional.</p>
  <fieldset>
  <legend>Speaker Info</legend>
  <ul>
@@ -57,7 +57,10 @@
 	<input id="department1" name="department1" type="text"  />
 </li>
 <li>
-	<label for="address1">Address:</label>
+	<label for="address1">Address:<svg class="icon" focusable="false"><use xlink:href="#required"></use></svg>
+        <div class="visually-hidden">
+          required
+        </div></label>
 	<input id="address1" class="reqfield" name="address1" type="text" />
 </li>
 </ul>

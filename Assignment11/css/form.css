@@ -16,7 +16,8 @@ div#formcol1 {
 
 #formcol1 li {
 	list-style: none;
-	margin-bottom: 7px;
+	/* margin-bottom: 7px; */
+	padding: 5px;
 }
 
 #formcol1 input.reqfield {
@@ -33,6 +34,10 @@ label {
 	width: 6.5em;
 	display: inline-block;
 	text-align: right;
+}
+
+legend {
+	font-size: 18px;
 }
 
 select:focus, select:active, input:focus, input:active, input:focus + label,
