@@ -49,12 +49,13 @@ article {
   font-family: 'EB Garamond', serif;
 }
 
-.footer {
+footer {
   /* Start on Row 3 */
   grid-row: 3;
   grid-column: 1 / 4;
   font-family: 'EB Garamond', serif;
   text-align: center;
+  width: 100vw;
 }
 
 h1, h2 {
