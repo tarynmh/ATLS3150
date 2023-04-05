@@ -1,0 +1,78 @@
+body {
+    background-color: #f5ece9;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 200px auto auto;
+  grid-template-rows: repeat(3, 100px);
+  grid-gap: 1em;
+}
+
+header {
+  /* Start on Row 1 */
+  grid-row: 1;
+  /* take up entire page */
+  grid-column: 1 / 4;
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 500;
+}
+
+.sidebar-left {
+  /* Start on Row 2 */
+  grid-row: 2;
+  /* Start on the first column line and stop at the next column line */
+  grid-column: 1 / 2;
+  font-family: 'EB Garamond', serif;
+}
+
+article {
+  /* Start on Row 2 */
+  grid-row: 2;
+  /* Start on the second column line and stop at the third column line */
+  grid-column: 2 / 3;
+  font-family: 'EB Garamond', serif;
+  background-color: #f5ece9;
+}
+
+.sidebar-right {
+  /* Start on Row 2 */
+  grid-row: 2;
+  /* Start on the third column line and stop at the last column line */
+  grid-column: 3 / 4;
+  font-family: 'EB Garamond', serif;
+}
+
+h1, h2 {
+    color: #01948b;
+  }
+  
+  p {
+    color: #3d3c39;
+  }
+  
+  ul {
+    border: 3px dotted #F56476;
+  }
+  
+  ol {
+    border: 3px dotted #F56476;
+  }
+  
+  ol, ul {
+    padding: 15px 20px;
+    border-radius: 4px;
+  }
+  
+  h1, strong {
+    color: #2e294e;
+  }
+  
+  em {
+    color: #557285;
+  }
+  
+  li {
+    font-size: 18px;
+  }
